@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umeshrathore666/E-KiTAB.git"
+  },
+  "author": "umesh rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umeshrathore666/E-KiTAB/issues"
+  },
+  "homepage": "https://github.com/Umeshrathore666/E-KiTAB#readme",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4"
+  }
+}
